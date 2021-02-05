@@ -5,8 +5,8 @@ class Book {
     public $author;
     
     function __construct($title, $author) {
-        return $this->$title;
-        return $this->$author;
+        return $this->title = $title;
+        return $this->author = $author;
     }
 
 }
